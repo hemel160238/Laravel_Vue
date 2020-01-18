@@ -1,9 +1,10 @@
 <template>
-    <div>
-        <h1>{{ItemTitle}}</h1>
-        <h2>{{ItemPrice}}</h2>
-        <p>{{ItemContent}}</p>
 
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">{{ItemTitle}}</h5>
+            <p class="card-text">{{ItemContent}}</p>
+        </div>
     </div>
 </template>
 
@@ -15,5 +16,5 @@ export default {
         ItemContent: String,
         ItemPrice: Number
     }
-}
+};
 </script>
